@@ -1,4 +1,4 @@
-module github.com/samuelerb/traefik-visitor-middleware
+module github.com/samuel-erb/traefik-visitor-middleware
 
 go 1.21
 
