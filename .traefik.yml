@@ -1,0 +1,13 @@
+displayName: Visitor Tracking Middleware
+type: middleware
+
+import: github.com/samuelerb/traefik-visitor-middleware
+
+summary: 'Tracks website visitors and stores data in InfluxDB'
+
+testData:
+  influxdb_url: "http://localhost:8086"
+  influxdb_token: "your-token"
+  influxdb_org: "your-org"
+  influxdb_bucket: "visitors"
+  hash_salt: "random-salt-string"
