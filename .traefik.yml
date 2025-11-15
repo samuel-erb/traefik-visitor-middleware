@@ -1,7 +1,7 @@
 displayName: Visitor Tracking Middleware
 type: middleware
 
-import: github.com/samuelerb/traefik-visitor-middleware
+import: github.com/samuel-erb/traefik-visitor-middleware
 
 summary: 'Tracks website visitors and stores data in InfluxDB'
 

@@ -21,7 +21,7 @@ In Ihrer Traefik-Konfiguration (`traefik.yml`) das Plugin hinzufügen:
 experimental:
   plugins:
     visitor-tracking:
-      moduleName: github.com/samuelerb/traefik-visitor-middleware
+      moduleName: github.com/samuel-erb/traefik-visitor-middleware
       version: v1.0.0
 ```
 
